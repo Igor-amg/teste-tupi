@@ -1,0 +1,73 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin: 50px;
+}
+
+.titulo h1 {
+  font-size: 70px;
+  text-align: center;
+  align-items: center;
+  color: #e25505;
+}
+
+.titulo {
+  display: flex;
+}
+
+.container-formulario-caixa {
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa-formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e25505;
+  margin-top: 3rem;
+}
+
+.formulario form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario form input {
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+
+}
+
+.botao-enviar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-botao {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
